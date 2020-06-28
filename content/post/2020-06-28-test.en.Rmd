@@ -18,7 +18,6 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-include_toc: true
 ---
 
 # testing Posts

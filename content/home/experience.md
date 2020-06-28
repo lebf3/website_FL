@@ -82,7 +82,7 @@ date_format = "Jan 2006"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "SkyBlue"
+  gradient_start = "#795548"
   gradient_end = "White"
   
   # Background image.
