@@ -49,8 +49,8 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "SkyBlue"
+  # gradient_end = "White"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
@@ -67,6 +67,6 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+
+[Filtering publications]({{< ref "/publication/_index.md" >}}).
+

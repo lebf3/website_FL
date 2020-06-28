@@ -17,20 +17,28 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  # name = "R"
+  description = "Tidyverse, Shiny, RMarkdown, Blogdown"
   
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  # name = "python"
+  description = "Pytorch, Numpy"
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
+  # description = "100%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "dna"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Omic assays"
+  description = "Genotyping, RNAseq, ATACseq, Proteomic"
+
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
