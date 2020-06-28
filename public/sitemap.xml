@@ -33,48 +33,38 @@
   </url>
   
   <url>
-    <loc>/tag/analysis/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/longevity/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/longevity/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <loc>/category/demo/</loc>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
     <loc>/category/r/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-28T21:13:14-05:00</lastmod>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/test/</loc>
+    <lastmod>2020-06-28T13:50:38-04:00</lastmod>
   </url>
   
   <url>
@@ -314,11 +304,6 @@
   
   <url>
     <loc>/post_exemples/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
