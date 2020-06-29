@@ -85,15 +85,20 @@
 &lt;p&gt;As a first post, it seemed appropriate to document the process of building this website and regroup resources for future use and help some other users. I entertained the idea of a personal website since I started my graduate studies in bioinformatics to showcase my work, but also build a platform that will extend outside the frame of my thesis. Using RMarkdown as my main work document, the package 
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; is the perfect fit (almost).&lt;/p&gt;
 &lt;h2 id=&#34;resources-i-used&#34;&gt;Resources I used&lt;/h2&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/vVHZ76OwPow&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;details&gt;
   &lt;summary&gt;Videos&lt;/summary&gt;
-&lt;h4 id=&#34;this-video-and-others-in-this-series-shows-how-to-get-your-site-running-on-netlifyhttpsappnetlifycom-for-free&#34;&gt;This video (and others in this series) shows how to get your site running on 
-&lt;a href=&#34;https://app.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;netlify&lt;/strong&gt;&lt;/a&gt; for free!&lt;/h4&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/vVHZ76OwPow&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h4 id=&#34;this-video-goes-trough-the-customization-options-of-the-academic-theme&#34;&gt;This video goes trough the customization options of the academic theme.&lt;/h4&gt;
-  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/ox_Ue9yzf-0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-  &lt;br&gt; 
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This 
+&lt;a href=&#34;https://www.youtube.com/watch?v=vVHZ76OwPow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt; (and others in this series) shows how to get your site running on 
+&lt;a href=&#34;https://app.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;netlify&lt;/strong&gt;&lt;/a&gt; for free!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This 
+&lt;a href=&#34;https://www.youtube.com/watch?v=ox_Ue9yzf-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt; goes trough the customization options of the academic theme.&lt;/p&gt;
+&lt;br&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/details&gt;
 &lt;details&gt;
 	&lt;summary&gt;Web resources&lt;/summary&gt;
