@@ -28,16 +28,16 @@ As a first post, it seemed appropriate to document the process of building this 
 
 ## Resources I used
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/vVHZ76OwPow" frameborder="0" allowfullscreen></iframe>
+
 <details>
   <summary>Videos</summary>
-  
-  <br> 
+
   
   #### This video (and others in this series) shows how to get your site running on [**netlify**](https://app.netlify.com/) for free!
 
-  <iframe width="560" height="315" src="http://www.youtube.com/embed/vVHZ76OwPow" frameborder="0" allowfullscreen></iframe>
-  
-  <br> 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/vVHZ76OwPow" frameborder="0" allowfullscreen></iframe>
+
   
   #### This video goes trough the customization options of the academic theme.
 
