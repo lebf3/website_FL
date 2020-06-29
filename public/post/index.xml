@@ -13,93 +13,80 @@
     </image>
     
     <item>
-      <title>test3</title>
-      <link>/post/test3/</link>
+      <title>How I built this website</title>
+      <link>/post/how-i-built-this-website/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>testdefault</title>
-      <link>/post/testdefault/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/testdefault/</guid>
-      <description>
-
-
-&lt;div id=&#34;default-test&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;default test&lt;/h1&gt;
-&lt;div id=&#34;d&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;d&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mtcars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##       mpg             cyl             disp             hp       
-##  Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  
-##  1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  
-##  Median :19.20   Median :6.000   Median :196.3   Median :123.0  
-##  Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  
-##  3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  
-##  Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  
-##       drat             wt             qsec             vs        
-##  Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  
-##  1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  
-##  Median :3.695   Median :3.325   Median :17.71   Median :0.0000  
-##  Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  
-##  3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  
-##  Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  
-##        am              gear            carb      
-##  Min.   :0.0000   Min.   :3.000   Min.   :1.000  
-##  1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  
-##  Median :0.0000   Median :4.000   Median :2.000  
-##  Mean   :0.4062   Mean   :3.688   Mean   :2.812  
-##  3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  
-##  Max.   :1.0000   Max.   :5.000   Max.   :8.000&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>/post/test/</link>
-      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/test/</guid>
-      <description>
-
-
-&lt;div id=&#34;testing-posts&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;testing Posts&lt;/h1&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mtcars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##       mpg             cyl             disp             hp       
-##  Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  
-##  1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  
-##  Median :19.20   Median :6.000   Median :196.3   Median :123.0  
-##  Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  
-##  3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  
-##  Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  
-##       drat             wt             qsec             vs        
-##  Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  
-##  1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  
-##  Median :3.695   Median :3.325   Median :17.71   Median :0.0000  
-##  Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  
-##  3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  
-##  Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  
-##        am              gear            carb      
-##  Min.   :0.0000   Min.   :3.000   Min.   :1.000  
-##  1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  
-##  Median :0.0000   Median :4.000   Median :2.000  
-##  Mean   :0.4062   Mean   :3.688   Mean   :2.812  
-##  3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  
-##  Max.   :1.0000   Max.   :5.000   Max.   :8.000&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-06-28-test.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
+      <guid>/post/how-i-built-this-website/</guid>
+      <description>&lt;h2 id=&#34;why-this-post&#34;&gt;Why this post&lt;/h2&gt;
+&lt;p&gt;As a first post, it seemed appropriate to document the process of building this website and regroup resources for future use and help some other users. I entertained the idea of a personal website since I started my graduate studies in bioinformatics to showcase my work, but also build a platform that will extend outside the frame of my thesis. Using RMarkdown as my main work document, the package 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; is the perfect fit (almost).&lt;/p&gt;
+&lt;h2 id=&#34;resources-i-used&#34;&gt;Resources I used&lt;/h2&gt;
+&lt;details&gt;
+  &lt;summary&gt;Videos&lt;/summary&gt;
+  &lt;br&gt; 
+&lt;h4 id=&#34;this-video-and-others-in-this-series-shows-how-to-get-your-site-running-on-netlifyhttpsappnetlifycom-for-free&#34;&gt;This video (and others in this series) shows how to get your site running on 
+&lt;a href=&#34;https://app.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;netlify&lt;/strong&gt;&lt;/a&gt; for free!&lt;/h4&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/vVHZ76OwPow&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;br&gt; 
+&lt;h4 id=&#34;this-video-goes-trough-the-customization-options-of-the-academic-theme&#34;&gt;This video goes trough the customization options of the academic theme.&lt;/h4&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/ox_Ue9yzf-0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;br&gt; 
+&lt;/details&gt;
+&lt;details&gt;
+	&lt;summary&gt;Web resources&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; R book details most steps to get you going.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Academic&lt;/strong&gt;&lt;/a&gt; details how to customize this Hugo theme within the parameters they have made easy to modify.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;p&gt;There are many themes available, from complex to simple on 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo site&lt;/strong&gt;&lt;/a&gt;. The current theme is 
+&lt;a href=&#34;https://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Academic&lt;/strong&gt;&lt;/a&gt;, a complex theme. It conveniently has many templates and functions that allow referencing publications, projects or posts and sharing them. The downside of it&amp;rsquo;s complexity is that customizing it is difficult. One feature I tryed (and failed) to change is allowing a TOC to be displayed with posts rendered from .Rmd or .RMarkdown files.&lt;/p&gt;
+&lt;p&gt;I found a solution for .md files 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues/1520&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;. So for now, I simply set &lt;code&gt;toc: true&lt;/code&gt; if the file is .md and &lt;code&gt;toc: false&lt;/code&gt; if it is a .Rmd since the &lt;code&gt;&amp;lt;root dir&amp;gt;/layouts/_default/single.htm&lt;/code&gt; has to be the same for both files.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{- define &amp;quot;main&amp;quot; -}}
+{{ if .Params.toc }}
+&amp;lt;div class=&amp;quot;container-fluid docs&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;row flex-xl-nowrap&amp;quot;&amp;gt;
+      &amp;lt;div class=&amp;quot;d-none d-xl-block col-xl-2 docs-toc&amp;quot;&amp;gt;
+        &amp;lt;ul class=&amp;quot;nav toc-top&amp;quot;&amp;gt;
+          &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; id=&amp;quot;back_to_top&amp;quot; class=&amp;quot;docs-toc-title&amp;quot;&amp;gt;{{ i18n &amp;quot;on_this_page&amp;quot; }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+        {{ .TableOfContents }}
+        {{ partial &amp;quot;docs_toc_foot&amp;quot; . }}
+      &amp;lt;/div&amp;gt;
+      &amp;lt;main class=&amp;quot;col-12 col-md-0 col-xl-10 py-md-3 pl-md-5 docs-content&amp;quot; role=&amp;quot;main&amp;quot;&amp;gt;
+{{ end }}
+        &amp;lt;article class=&amp;quot;article&amp;quot;&amp;gt;
+            {{ partial &amp;quot;page_header&amp;quot; . }}
+            &amp;lt;div class=&amp;quot;article-container&amp;quot;&amp;gt;
+              &amp;lt;div class=&amp;quot;article-style&amp;quot;&amp;gt;
+                {{ .Content }}
+              &amp;lt;/div&amp;gt;
+              {{ partial &amp;quot;page_footer&amp;quot; . }}
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/article&amp;gt;
+  {{ if .Params.toc }}
+      &amp;lt;/main&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+  {{ end }}
+{{- end -}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;the-few-issues-i-had-that-may-save-you-time&#34;&gt;The few issues I had (&lt;em&gt;that may save you time&lt;/em&gt;)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Change the URL in &lt;code&gt;&amp;lt;root dir&amp;gt;/config.toml&lt;/code&gt; for the site after netlify is running to have sharable posts working.&lt;/li&gt;
+&lt;li&gt;Create new posts, courses or add publications with the addin button of Rstudio.&lt;/li&gt;
+&lt;li&gt;If you have a lot of changes (new files) to commit, git may crash if when you try to stage them in Rstudio. I use the Tools&amp;gt;shell&amp;hellip; &lt;code&gt;git add .&lt;/code&gt; then you can commit either from Rstudio of from the shell and it should work. If git crashed, you may have to go delete the &lt;code&gt;.git/index.lock&lt;/code&gt; by command line (if you are using windows the directory won&amp;rsquo;t be visible) &lt;code&gt;cd &amp;lt;root dir&amp;gt;/.git/&lt;/code&gt; then &lt;code&gt;rm index.lock&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If you have accents in you path (even before your &lt;code&gt;root dir&lt;/code&gt; where the website project is located), git won&amp;rsquo;t work properly and you may end up with a blank git tab in Rstudio.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
