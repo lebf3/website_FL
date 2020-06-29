@@ -5,12 +5,20 @@
     <link>/tag/demo/</link>
       <atom:link href="/tag/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_huf26ba16d0e16f3a837fa171f07412aae_140844_512x512_fill_lanczos_center_2.png</url>
       <title>Demo</title>
       <link>/tag/demo/</link>
     </image>
+    
+    <item>
+      <title>test3</title>
+      <link>/post/test3/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/test3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>External Project</title>
