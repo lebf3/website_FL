@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am passionate about leveraging new omic technologies to enhance human healthspan.
+bio: I am a rigorous, determined and motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the growing field of genomics for it's exponential potential to better human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
 education:
   courses:
   - course: PhD in Bioinformatics
@@ -15,9 +15,12 @@ education:
     year: 2016-2019
 email: "francis.leblanc.3@umontreal.ca"
 interests:
-- Longevity
 - Data visualisation
 - Omic technologies
+- Endothelial function
+- Longevity
+- Senescence
+- Autophagy
 organizations:
 - name: Université de Montréal, Montreal heart institute
   url: ""

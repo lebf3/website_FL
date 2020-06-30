@@ -91,6 +91,6 @@ I found a solution for .md files [**here**](https://github.com/gcushen/hugo-acad
 
 1. Change the URL in `<root dir>/config.toml` for the site after netlify is running to have sharable posts working.
 2. Create new posts, courses or add publications with the addin button of Rstudio.
-3. If you have a lot of changes (new files) to commit, git may crash if when you try to stage them in Rstudio. I use the Tools>shell... `git add .` then you can commit either from Rstudio of from the shell and it should work. If git crashed, you may have to go delete the `.git/index.lock` by command line (if you are using windows the directory won't be visible) `cd <root dir>/.git/` then `rm index.lock`.
+3. If you have a lot of changes (new files) to commit, git may crash when you try to stage them in Rstudio. I use the Tools>shell... `git add .` then commit either from Rstudio or from the shell and it should work. If git crashed, you may have to go delete the `.git/index.lock` by command line (if you are using windows the directory won't be visible) `cd <root dir>/.git/` then `rm index.lock`.
 4. If you have accents in you path (even before your `root dir` where the website project is located), git won't work properly and you may end up with a blank git tab in Rstudio. 
 

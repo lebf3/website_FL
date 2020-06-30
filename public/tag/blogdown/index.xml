@@ -88,7 +88,7 @@
 &lt;ol&gt;
 &lt;li&gt;Change the URL in &lt;code&gt;&amp;lt;root dir&amp;gt;/config.toml&lt;/code&gt; for the site after netlify is running to have sharable posts working.&lt;/li&gt;
 &lt;li&gt;Create new posts, courses or add publications with the addin button of Rstudio.&lt;/li&gt;
-&lt;li&gt;If you have a lot of changes (new files) to commit, git may crash if when you try to stage them in Rstudio. I use the Tools&amp;gt;shell&amp;hellip; &lt;code&gt;git add .&lt;/code&gt; then you can commit either from Rstudio of from the shell and it should work. If git crashed, you may have to go delete the &lt;code&gt;.git/index.lock&lt;/code&gt; by command line (if you are using windows the directory won&amp;rsquo;t be visible) &lt;code&gt;cd &amp;lt;root dir&amp;gt;/.git/&lt;/code&gt; then &lt;code&gt;rm index.lock&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If you have a lot of changes (new files) to commit, git may crash when you try to stage them in Rstudio. I use the Tools&amp;gt;shell&amp;hellip; &lt;code&gt;git add .&lt;/code&gt; then commit either from Rstudio or from the shell and it should work. If git crashed, you may have to go delete the &lt;code&gt;.git/index.lock&lt;/code&gt; by command line (if you are using windows the directory won&amp;rsquo;t be visible) &lt;code&gt;cd &amp;lt;root dir&amp;gt;/.git/&lt;/code&gt; then &lt;code&gt;rm index.lock&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;If you have accents in you path (even before your &lt;code&gt;root dir&lt;/code&gt; where the website project is located), git won&amp;rsquo;t work properly and you may end up with a blank git tab in Rstudio.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
