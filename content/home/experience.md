@@ -82,8 +82,8 @@ date_format = "Jan 2006"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#795548"
-  gradient_end = "White"
+  gradient_start = "White"
+  gradient_end = "#795548"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
