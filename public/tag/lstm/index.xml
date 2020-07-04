@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LSTM | Portfolio</title>
+    <title>LSTM | F. Leblanc</title>
     <link>/tag/lstm/</link>
       <atom:link href="/tag/lstm/index.xml" rel="self" type="application/rss+xml" />
     <description>LSTM</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2019 12:52:50 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_huf26ba16d0e16f3a837fa171f07412aae_140844_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu7522b1ed8b99d8170648134ea69354f9_86594_512x512_fill_lanczos_center_2.png</url>
       <title>LSTM</title>
       <link>/tag/lstm/</link>
     </image>
