@@ -10,7 +10,7 @@ education:
   - course: MSc in Bioinformatics (transitioned to PhD)
     institution: Université de Montréal
     year: 2019-2020
-  - course: BSc biochemistry
+  - course: BSc in biochemistry, genomic specialization. *Honor program*
     institution: Université de Montréal
     year: 2016-2019
 email: "francis.leblanc.3@umontreal.ca"
