@@ -7,7 +7,7 @@ education:
   - course: PhD in Bioinformatics
     institution: Université de Montréal
     year: 2020
-  - course: Msc in Bioinformatics (transitioned to PhD)
+  - course: MSc in Bioinformatics (transitioned to PhD)
     institution: Université de Montréal
     year: 2019-2020
   - course: BSc biochemistry
@@ -48,4 +48,4 @@ user_groups:
 - Visitors
 ---
 
-I am a rigorous, determined and motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the growing field of genomics for it's exponential potential to better human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
+I am a rigorous, determined and motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the field of genomics for it's exponential potential to better our understanding of human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
