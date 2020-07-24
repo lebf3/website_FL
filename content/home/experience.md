@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "PhD student in bioinformatics"
+  title = "PhD student in Bioinformatics"
   company = "Lettre lab"
   company_url = "http://www.mhi-humangenetics.org/"
   location = "Montreal"
@@ -28,7 +28,7 @@ date_format = "Jan 2006"
 
   * Library preperation
   * Proteomic, Genotyping & RNAseq analyses
-  * research and experimental design
+  * Reseach and experimental design
   """
 
 [[experience]]
@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   location = "Montreal"
   date_start = "2018-09-01"
   date_end = "2020-04-30"
-  description = """Assist students during practical work with linux, Pymol, R and databases (Blast, uniprot, PDB and GenBank)."""
+  description = """Assist students during practical work with Linux, Pymol, R and databases (Blast, UniProt, PDB and GenBank)."""
 
 [[experience]]
   title = "Deep learning internship"
@@ -56,7 +56,7 @@ date_format = "Jan 2006"
   location = "Montreal"
   date_start = "2018-05-01"
   date_end = "2018-08-01"
-  description = """Exploring the different inflammatory responses of 2 endothelial cell models using the RNAseq and ATACseq methods"""
+  description = """Exploring the different inflammatory responses of two endothelial cell models using the RNAseq and ATACseq methods"""
 
 [[experience]]
   title = "Personal trainer and business owner"

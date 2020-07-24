@@ -15,12 +15,12 @@ education:
     year: 2016-2019
 email: "francis.leblanc.3@umontreal.ca"
 interests:
-- Data visualisation
 - Omic technologies
+- Data visualization
+- Healthspan
 - Endothelial function
-- Longevity
-- Senescence
 - Autophagy
+- Senescence
 organizations:
 - name: Université de Montréal, Montreal heart institute
   url: ""
