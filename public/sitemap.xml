@@ -33,12 +33,47 @@
   </url>
   
   <url>
-    <loc>/tag/blogdown/</loc>
-    <lastmod>2020-06-29T13:48:09-04:00</lastmod>
+    <loc>/tag/atrial-fibrillation/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/literature/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/literature-analysis/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/blogdown/</loc>
     <lastmod>2020-06-29T13:48:09-04:00</lastmod>
   </url>
   
@@ -53,17 +88,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-06-29T13:48:09-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-06-29T13:48:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-06-29T13:48:09-04:00</lastmod>
   </url>
   

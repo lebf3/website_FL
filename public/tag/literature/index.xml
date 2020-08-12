@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>literature | F. Leblanc</title>
+    <link>/tag/literature/</link>
+      <atom:link href="/tag/literature/index.xml" rel="self" type="application/rss+xml" />
+    <description>literature</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <title>literature</title>
+      <link>/tag/literature/</link>
+    </image>
+    
+    <item>
+      <title>Literature analysis</title>
+      <link>/post/literature-analysis/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/literature-analysis/</guid>
+      <description>
+
+
+&lt;p&gt;Here I discuss the various literature packages in R and show a use case on a topic I study.
+Available packages;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bibliometrix: has a variety of functions returning most useful metrics you could want&lt;/li&gt;
+&lt;li&gt;scholar: useful to evaluate journals and scholars (here I use it to retrieve impact factors of journals)&lt;/li&gt;
+&lt;li&gt;pubmed.mineR: allows to query PubMed in multiple ways (great option if your query results is very high, but it’s slow and you won’t get citation counts and pubtator data)&lt;/li&gt;
+&lt;li&gt;wosr: If you have an API username and password, this might be the best option to query a large amount of papers&lt;/li&gt;
+&lt;li&gt;other packages: pubmedR, RISmed and RISmed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After spending some time exploring the different options, I found that MeSH terms were often lacking, and Keywords or Keywords plus were not very informative. I ended up finding the results from &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/research/pubtator/&#34;&gt;pubtator&lt;/a&gt;. This is a NCBI Deep learning algorithm that identified and categorised 5 class of words in publications (Genes, Diseases, Mutations, Chemicals, Species) from the PMID.
+For use cases where you have a large number of results, I provide a script at the end of the document.&lt;/p&gt;
+&lt;p&gt;Aims:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Determin the Keywords associated to the 14q32 locus evolution in time&lt;/li&gt;
+&lt;li&gt;Determin journals yielding most citations on the subject&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following data was retreived from Web of science database with the following search therms: &lt;strong&gt;TOPIC: ((14q32) OR (DLK1-DIO3)) AND TOPIC: (heart OR cardi)&lt;/strong&gt; The results were exported as plain text files.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pacman::p_load(bibliometrix,
+               pubmed.mineR,
+               rio,
+               ttutils,
+               tidyverse,
+               ggplot2,
+               ggrepel,
+               scholar,
+               reshape2)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;overview-of-the-results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Overview of the results&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;f &amp;lt;- c(&amp;quot;data_litterature_14q32/14q32_OR_DLK1-DIO3_AND_heartORcardio.txt&amp;quot;)
+M &amp;lt;- convert2df(file = f, dbsource = &amp;quot;wos&amp;quot;, format = &amp;quot;plaintext&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Converting your wos collection into a bibliographic dataframe
+## 
+## Done!
+## 
+## 
+## Generating affiliation field tag AU_UN from C1:  Done!&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;results &amp;lt;- biblioAnalysis(M, sep = &amp;quot;;&amp;quot;)
+plot(x = results, k = 10, pause = FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-4.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-5.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;co-occurence-of-author-keywords&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Co-occurence of Author Keywords&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create keyword co-occurrences network
+NetMatrix &amp;lt;- biblioNetwork(M, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;author_keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
+
+# Plot the network
+net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Co-occurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;genes-and-diseases-analysis&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Genes and diseases analysis&lt;/h1&gt;
+&lt;p&gt;Keywords are quite uninforamtive. I find that a better option is to use gene names and diseases identified by the NCBI Deep learning algorythm &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/research/pubtator/&#34;&gt;pubtator&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;pubtator-query&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Pubtator query&lt;/h2&gt;
+&lt;p&gt;Pubator returns all identifiers merged from a PMID list. Here we want this information for each articles so we need to do this iteratively.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# pubtator_o &amp;lt;- list()
+# for (i in 1:length(M$PM)) {
+#   pubtator_o[[i]] &amp;lt;- pubtator_function(M$PM[i])
+#   if (isInteger(i/100)) {
+#     print(i)
+#   }
+# }
+# export(pubtator_o, &amp;quot;data_litterature_14q32/14q32_OR_DLK1-DIO3_AND_heartORcardio_pubtator.rds&amp;quot;)
+
+pubtator_o &amp;lt;- import(&amp;quot;data_litterature_14q32/14q32_OR_DLK1-DIO3_AND_heartORcardio_pubtator.rds&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;network-analysis-of-genes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Network analysis of genes&lt;/h2&gt;
+&lt;p&gt;Text needs to be reformated to be processed with the bibliometrix package&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do &amp;lt;- as.data.frame(do.call(rbind, lapply(pubtator_o, as.character)), stringsAsFactors = F)
+colnames(do) &amp;lt;- names(pubtator_o[[1]])
+do &amp;lt;- do %&amp;gt;% replace(.==&amp;quot;NULL&amp;quot;, NA)
+do &amp;lt;- do[do$PMID != &amp;quot; No Data &amp;quot;,]
+
+do &amp;lt;- apply(do,2,function(x) gsub(&amp;quot;c[(]&amp;quot;, &amp;quot;&amp;quot;, x))
+do &amp;lt;- apply(do,2,function(x) gsub(&amp;quot;[)]&amp;quot;, &amp;quot;&amp;quot;, x))
+do &amp;lt;- as.data.frame(apply(do, 2,function(x) gsub(&amp;quot;\&amp;quot;&amp;quot;, &amp;quot;&amp;quot;, x)), stringsAsFactors = F)
+do &amp;lt;- as.data.frame(apply(do, 2,function(x) gsub(&amp;quot;&amp;gt;[0-9]+&amp;quot;,&amp;quot;&amp;quot;, x)), stringsAsFactors = F)
+do &amp;lt;- as.data.frame(apply(do, 2,function(x) gsub(&amp;quot;&amp;gt;MESH:[A-Z][0-9]+&amp;quot;,&amp;quot;&amp;quot;, x)), stringsAsFactors = F)
+do &amp;lt;- as.data.frame(apply(do, 2,function(x) gsub(&amp;quot;&amp;gt;-&amp;quot;,&amp;quot;&amp;quot;, x)), stringsAsFactors = F)
+do &amp;lt;- as.data.frame(apply(do, 2,function(x) gsub(&amp;quot;,&amp;quot;,&amp;quot;;&amp;quot;, x)), stringsAsFactors = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Now we can replace Keywords with the columns for Genes and/or Diseases from Pubtator&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;M2 &amp;lt;- M # new df to replace ID
+df &amp;lt;- merge(M, do, by.x=&amp;quot;PM&amp;quot;, by.y = &amp;quot;PMID&amp;quot;, all.x = T)
+
+
+change_ID &amp;lt;- function(new_ID, DF) {
+  # remove duplicated gene names (some are capitalized and others not)
+  DF$ID &amp;lt;- new_ID
+  DF$ID &amp;lt;- gsub(&amp;quot;NA&amp;quot;,&amp;quot;&amp;quot;,DF$ID)
+  t &amp;lt;- split(toupper(DF$ID), seq(length(DF$ID)))
+  t &amp;lt;- lapply(t, function(x) unique(str_trim(strsplit(x, &amp;quot;;&amp;quot;)[[1]])))
+  t &amp;lt;- lapply(t, function(x) paste(x, collapse = &amp;quot;;&amp;quot;))
+  DF$ID &amp;lt;- unlist(t)
+  DF$ID &amp;lt;- gsub(&amp;quot;NULL&amp;quot;,&amp;quot;&amp;quot;,DF$ID)
+  return(DF)
+}
+
+new_ID &amp;lt;- paste0(df$Genes) # replacing ID with genes from Pubtator
+M2 &amp;lt;- change_ID(new_ID,M2)
+
+##### These other functions may also be helpful.
+# summary(results2)
+# CS &amp;lt;- conceptualStructure(M2,field=&amp;quot;ID&amp;quot;, method=&amp;quot;CA&amp;quot;, minDegree=4, clust=5, stemming=FALSE, labelsize=10, documents=10)
+
+# rio::export(M2, &amp;quot;data_litterature_14q32/14q32_lit.xlsx&amp;quot;) # to import in shiny
+# biblioshiny()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
+
+net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variation-of-investigated-genes-over-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variation of investigated genes over time&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ID_evol_p &amp;lt;- function(DF, top_n_ID) {
+  KWG_df &amp;lt;- KeywordGrowth(DF, Tag = &amp;quot;ID&amp;quot;, sep = &amp;quot;;&amp;quot;, top = top_n_ID, cdf = TRUE)
+  m &amp;lt;- melt(KWG_df,  measure.vars = c(colnames(KWG_df)[2:(top_n_ID+1)]))
+  m &amp;lt;- m %&amp;gt;% mutate(label = if_else(Year == max(Year), as.character(variable), NA_character_))
+  
+  labelInfo &amp;lt;-
+    split(m, m$variable) %&amp;gt;%
+    lapply(function(t) {
+      data.frame(
+        predAtMax = loess(value ~ Year, data = t) %&amp;gt;%
+          predict(newdata = data.frame(Year = max(t$Year)))
+        , max = max(t$Year)
+      )}) %&amp;gt;%
+    bind_rows
+  
+  labelInfo$label = levels(factor(m$variable))
+  
+  p &amp;lt;- ggplot(m, aes(x=Year, y=value, colour=variable))+
+    geom_smooth(se=F) +
+    geom_label_repel(data = labelInfo, 
+                     aes(x = max, y = predAtMax, 
+                         label = label, 
+                         color = label),
+                     size = 3,
+                     nudge_x = 5) +
+    theme_minimal() + 
+    theme(legend.position = &amp;quot;none&amp;quot;)+
+    xlim(min(m$Year), 10+max(m$Year))+
+    ylab(&amp;quot;Cumulative frequency&amp;quot;)
+  return(p)
+}
+
+ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;network-analysis-of-diseases&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Network analysis of diseases&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;new_ID &amp;lt;- paste0(df$Diseases) # replacing ID with genes from Pubtator
+M2 &amp;lt;- change_ID(new_ID,M2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
+
+net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variation-of-investigated-diseases-over-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variation of investigated diseases over time&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;combined-genes-and-diseases-network&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Combined genes and diseases network&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;new_ID &amp;lt;- paste0(df$Genes, &amp;quot;;&amp;quot;,df$Diseases)
+M2 &amp;lt;- change_ID(new_ID,M2)
+results2 &amp;lt;- biblioAnalysis(M2, sep = &amp;quot;;&amp;quot;)
+# summary(results2)
+# rio::export(M2, &amp;quot;data_litterature_14q32/14q32_lit.xlsx&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
+
+net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;wordcloud&amp;quot;)
+set.seed(1234)
+d &amp;lt;- as.data.frame(results2$ID)
+wordcloud(words = d$Tab, freq = d$Freq, min.freq = 2,
+          max.words=200, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, &amp;quot;Dark2&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;best-journal-in-topic&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Best journal in topic&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;number of citation per paper per year&lt;/li&gt;
+&lt;li&gt;compare to their impact factor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sources &amp;lt;- data.frame(sources = M2$SO , TCperYear = results2$TCperYear)
+sources &amp;lt;- sources %&amp;gt;% group_by(sources) %&amp;gt;% summarise(TCpY = sum(TCperYear))
+sources$n_aticles &amp;lt;- M2 %&amp;gt;% group_by(SO) %&amp;gt;% count() %&amp;gt;% pull(n)
+sources$TCpYpA &amp;lt;- sources$TCpY/sources$n_aticles
+
+
+impact &amp;lt;- get_impactfactor(journals=sources$sources, max.distance = 0.1)
+sources &amp;lt;- merge(sources, impact, by.x=&amp;quot;sources&amp;quot;, by.y = &amp;quot;Journal&amp;quot;, all.x = T)
+sources &amp;lt;- sources[!duplicated(sources$sources),]
+top_J &amp;lt;- head(sources[order(sources$TCpYpA, decreasing = T),], 15)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(top_J, aes(y=reorder(sources,TCpYpA),x=TCpYpA))+
+  geom_bar(stat = &amp;quot;identity&amp;quot;) +
+  theme_minimal()+
+  theme(legend.position = &amp;quot;none&amp;quot;)+
+  xlab(&amp;quot;Citations/(Years*Articles)&amp;quot;)+
+  ylab(&amp;quot;Journal&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(top_J, aes(x = ImpactFactor, y=TCpYpA, label=sources, colour=sources))+
+  geom_point() +
+  geom_label_repel(size = 2.3)+
+  scale_y_log10() +
+  scale_x_log10() +
+  theme_minimal() +
+  theme(legend.position = &amp;quot;none&amp;quot;) +
+  ylab(&amp;quot;Citations/(Years*Articles)&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;large-queries-analyses&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Large queries analyses&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;##### Function to get citation count from PMID 
+##### (modified from RISmed package to avoid errors from multiple queries)
+f &amp;lt;- function(id){
+  
+  base &amp;lt;- &amp;quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?retmode=xml&amp;amp;dbfrom=pubmed&amp;amp;id=ID&amp;amp;cmd=neighbor&amp;quot;
+  base &amp;lt;- sub(&amp;quot;ID&amp;quot;, id, base)
+  
+  the_url &amp;lt;- url(description = base)
+  on.exit(close(the_url))
+  
+  lines &amp;lt;- readLines(the_url)
+  
+  citedstart &amp;lt;- grep(&amp;quot;pubmed_pubmed_citedin&amp;quot;, lines)
+  
+  if(length(citedstart) == 0){
+    return(0)
+  }
+  else{
+    citedend &amp;lt;- grep(&amp;quot;pubmed_pubmed&amp;quot;, lines)
+    citedend &amp;lt;- min(citedend[citedend &amp;gt; citedstart])
+    
+    tags &amp;lt;- grep(&amp;quot;&amp;lt;Id&amp;gt;&amp;quot;, lines)
+    tags &amp;lt;- tags[tags &amp;gt; citedstart &amp;amp; tags &amp;lt; citedend]
+    
+    if(any(tags)){
+      hits &amp;lt;- sub(&amp;quot;(.*&amp;lt;ID&amp;gt;)([0-9]+)(.*)&amp;quot;,&amp;quot;\\2&amp;quot;,lines[tags])
+      hits &amp;lt;- unique(hits)
+      length(hits[hits != id])
+    }
+    else{
+      0
+    }   
+  }
+}
+
+# get 
+library(pubmedR)
+query &amp;lt;- &amp;quot;atrial fibrillation[Title/Abstract]&amp;quot;
+res &amp;lt;- pmQueryTotalCount(query = query, api_key = NULL)
+D &amp;lt;- pmApiRequest(query = query, limit = 100000, api_key = NULL)
+M &amp;lt;- pmApi2df(D)
+
+
+library(ttutils)
+v &amp;lt;- c()
+for (i in 1:length(M$PMID)) {
+  v &amp;lt;- c(v,f(M$PMID[i])) # get citations 1 by one with sleep to avoid errors
+  Sys.sleep(0.3)
+  if (isInteger(i/100)) { # follow the long process
+    print(i)
+  }
+}
+
+# get Genes, Diseases, Mutations, Chemicals, Species from pubtator
+library(pubmed.mineR)
+pubtator_o &amp;lt;- list()
+for (i in 1:length(M$PMID[1:100])) {
+  pubtator_o[[i]] &amp;lt;- pubtator_function(M$PMID[i])
+  if (isInteger(i/100)) {
+    print(i)
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sessionInfo()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## R version 3.6.1 (2019-07-05)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 7 x64 (build 7601) Service Pack 1
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=French_Canada.1252  LC_CTYPE=French_Canada.1252   
+## [3] LC_MONETARY=French_Canada.1252 LC_NUMERIC=C                  
+## [5] LC_TIME=French_Canada.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+##  [1] wordcloud_2.6       RColorBrewer_1.1-2  reshape2_1.4.4     
+##  [4] scholar_0.1.7       ggrepel_0.8.2       forcats_0.5.0      
+##  [7] stringr_1.4.0       dplyr_1.0.0         purrr_0.3.4        
+## [10] readr_1.3.1         tidyr_1.0.2         tibble_3.0.0       
+## [13] ggplot2_3.3.1       tidyverse_1.3.0     ttutils_1.0-1      
+## [16] rio_0.5.16          pubmed.mineR_1.0.16 bibliometrix_3.0.2 
+## 
+## loaded via a namespace (and not attached):
+##   [1] colorspace_1.4-1     ellipsis_0.3.1       R2HTML_2.3.2        
+##   [4] fs_1.4.1             rstudioapi_0.11      dimensionsR_0.0.1   
+##   [7] farver_2.0.3         graphlayouts_0.7.0   rscopus_0.6.6       
+##  [10] SnowballC_0.7.0      DT_0.13              fansi_0.4.1         
+##  [13] lubridate_1.7.8      xml2_1.3.0           splines_3.6.1       
+##  [16] codetools_0.2-16     R.methodsS3_1.8.0    leaps_3.1           
+##  [19] knitr_1.28           shinythemes_1.1.2    polyclip_1.10-0     
+##  [22] jsonlite_1.6.1       broom_0.5.6          cluster_2.1.0       
+##  [25] dbplyr_1.4.4         R.oo_1.23.0          ggforce_0.3.1       
+##  [28] shiny_1.4.0.2        rentrez_1.2.2        compiler_3.6.1      
+##  [31] httr_1.4.1           backports_1.1.6      assertthat_0.2.1    
+##  [34] Matrix_1.2-18        fastmap_1.0.1        cli_2.0.2           
+##  [37] later_1.0.0          tweenr_1.0.1         htmltools_0.4.0     
+##  [40] tools_3.6.1          igraph_1.2.5         gtable_0.3.0        
+##  [43] glue_1.4.1           FactoMineR_2.3       Rcpp_1.0.4.6        
+##  [46] cellranger_1.1.0     vctrs_0.3.0          nlme_3.1-147        
+##  [49] blogdown_0.20        ggraph_2.0.2         xfun_0.14           
+##  [52] networkD3_0.4        openxlsx_4.1.4       rvest_0.3.5         
+##  [55] mime_0.9             lifecycle_0.2.0      pacman_0.5.1        
+##  [58] shinycssloaders_0.3  XML_3.99-0.3         stringdist_0.9.6    
+##  [61] factoextra_1.0.7     MASS_7.3-51.5        scales_1.1.1        
+##  [64] tidygraph_1.1.2      hms_0.5.3            promises_1.1.0      
+##  [67] parallel_3.6.1       yaml_2.2.1           curl_4.3            
+##  [70] gridExtra_2.3        stringi_1.4.6        boot_1.3-25         
+##  [73] zip_2.0.4            rlang_0.4.6          pkgconfig_2.0.3     
+##  [76] bitops_1.0-6         evaluate_0.14        lattice_0.20-40     
+##  [79] labeling_0.3         htmlwidgets_1.5.1    tidyselect_1.1.0    
+##  [82] plyr_1.8.6           magrittr_1.5         bookdown_0.19       
+##  [85] R6_2.4.1             generics_0.0.2       DBI_1.1.0           
+##  [88] mgcv_1.8-31          withr_2.2.0          pillar_1.4.4        
+##  [91] haven_2.2.0          foreign_0.8-76       scatterplot3d_0.3-41
+##  [94] RCurl_1.98-1.1       modelr_0.1.8         crayon_1.3.4        
+##  [97] rmarkdown_2.2        viridis_0.5.1        grid_3.6.1          
+## [100] readxl_1.3.1         data.table_1.12.8    blob_1.2.1          
+## [103] reprex_0.3.0         digest_0.6.25        flashClust_1.01-2   
+## [106] R.cache_0.14.0       xtable_1.8-4         httpuv_1.5.2        
+## [109] R.utils_2.9.2        munsell_0.5.0        viridisLite_0.3.0   
+## [112] pubmedR_0.0.3&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

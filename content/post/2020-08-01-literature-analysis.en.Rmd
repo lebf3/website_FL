@@ -29,7 +29,7 @@ knitr::opts_chunk$set(
 	cache = TRUE,
 	fig.height=7,
 	fig.width=10,
-	dpi = 300
+	dpi = 200
 )
 ```
 
@@ -43,7 +43,7 @@ Available packages;
 * wosr: If you have an API username and password, this might be the best option to query a large amount of papers
 * other packages: pubmedR, RISmed and RISmed
 
-After spending some time exploring the different options, I found that MeSH terms were often lacking, and Keywords or Keywords plus were not very informative. I ended up finding the results from [pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/). This is a NCBI Deep learning algorithm that identified and categorised 5 class of words in publications (Genes, Diseases, Mutations, Chemicals, Species) from the PMID. 
+After spending some time exploring the different options, I found that MeSH terms were often missing, and Keywords or Keywords plus were not very informative. I ended up finding the results from [pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/). This is a NCBI Deep learning algorithm that identified and categorised 5 class of words in publications (Genes, Diseases, Mutations, Chemicals, Species) from the PMID. 
 For use cases where you have a large number of results, I provide a script at the end of the document. 
 
 
