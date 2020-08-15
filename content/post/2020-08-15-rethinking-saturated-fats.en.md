@@ -28,7 +28,7 @@ accessible one of the main reasons why saturated fats have
 been *erroneously* demonized (if LDL and cholesterol are all clear for you
 here’s my main point: <ins>Under the presumption that either LDLc or all LDLp were
 important contributors to atherosclerosis, a diet that showed an increase in
-either of these was (and still is by most) considered dangerous and to is
+either of these was (and still is by most) considered dangerous and to be
 avoided.</ins>)
 
 ## So what’s LDL?
@@ -70,7 +70,7 @@ current nutritional guidelines on the saturated fat intake that were founded on
 our previous understanding of LDL’s role in atherosclerosis. Under the
 presumption that either LDLc or all LDLp were important contributors to
 atherosclerosis, a diet that showed an increase in either of these was (and
-still is by most) considered dangerous and to is avoided. Their extensive review
+still is by most) considered dangerous and to be avoided. Their extensive review
 makes the point that despite an increase in LDLc or overall LDLp in people that
 have a diet high in saturated fat from dairy, dark chocolate, or unprocessed red
 meat, in most cases, their all-cause mortality risk is reduced. This is not the
