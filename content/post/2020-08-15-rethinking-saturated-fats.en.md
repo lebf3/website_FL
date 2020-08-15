@@ -86,6 +86,8 @@ was packaged into). The consumption of **unprocessed** foods high in saturated
 fats is a healthy option for most (a subset of the population may not metabolize
 these fats as efficiently and benefit from diets lower in saturated fats)
 
+If you want to dive deep in this subject, [here](https://peterattiamd.com/ronkrauss/) is an interview with Dr. Krauss from my favorite podcast The Drive.
+
 ## BIBLIOGRAPHY
 
 1.	Zhang, J.; Li, Q.; Wu, Y.; Wang, D.; Xu, L.; Zhang, Y.; Wang, S.; Wang, T.;
