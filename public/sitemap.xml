@@ -33,12 +33,37 @@
   </url>
   
   <url>
-    <loc>/tag/atrial-fibrillation/</loc>
-    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/tag/coronary-artery-disease/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/health/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/rethinking-saturated-fats/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-15T09:04:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/atrial-fibrillation/</loc>
     <lastmod>2020-08-12T15:12:01-04:00</lastmod>
   </url>
   
@@ -53,22 +78,12 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/r/</loc>
     <lastmod>2020-08-12T15:12:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>/category/r/</loc>
-    <lastmod>2020-08-12T15:12:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-08-12T15:12:01-04:00</lastmod>
   </url>
   
@@ -134,11 +149,6 @@
   
   <url>
     <loc>/author/codina-fauteux-va/</loc>
-    <lastmod>2019-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/coronary-artery-disease/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
   </url>
   

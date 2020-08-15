@@ -29,7 +29,7 @@ Available packages;&lt;/p&gt;
 &lt;li&gt;wosr: If you have an API username and password, this might be the best option to query a large amount of papers&lt;/li&gt;
 &lt;li&gt;other packages: pubmedR, RISmed and RISmed&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;After spending some time exploring the different options, I found that MeSH terms were often lacking, and Keywords or Keywords plus were not very informative. I ended up finding the results from &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/research/pubtator/&#34;&gt;pubtator&lt;/a&gt;. This is a NCBI Deep learning algorithm that identified and categorised 5 class of words in publications (Genes, Diseases, Mutations, Chemicals, Species) from the PMID.
+&lt;p&gt;After spending some time exploring the different options, I found that MeSH terms were often missing, and Keywords or Keywords plus were not very informative. I ended up finding the results from &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/research/pubtator/&#34;&gt;pubtator&lt;/a&gt;. This is a NCBI Deep learning algorithm that identified and categorised 5 class of words in publications (Genes, Diseases, Mutations, Chemicals, Species) from the PMID.
 For use cases where you have a large number of results, I provide a script at the end of the document.&lt;/p&gt;
 &lt;p&gt;Aims:&lt;/p&gt;
 &lt;ul&gt;

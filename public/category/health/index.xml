@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coronary artery disease | F. Leblanc</title>
-    <link>/tag/coronary-artery-disease/</link>
-      <atom:link href="/tag/coronary-artery-disease/index.xml" rel="self" type="application/rss+xml" />
-    <description>Coronary artery disease</description>
+    <title>Health | F. Leblanc</title>
+    <link>/category/health/</link>
+      <atom:link href="/category/health/index.xml" rel="self" type="application/rss+xml" />
+    <description>Health</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
-      <title>Coronary artery disease</title>
-      <link>/tag/coronary-artery-disease/</link>
+      <title>Health</title>
+      <link>/category/health/</link>
     </image>
     
     <item>
@@ -160,14 +160,6 @@ JACC State-of-the-Art Review. *Journal of the American College of Cardiology
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Integrative analysis of vascular endothelial cell genomic features identifies AIDA as a coronary artery disease candidate gene</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description></description>
     </item>
     
   </channel>
