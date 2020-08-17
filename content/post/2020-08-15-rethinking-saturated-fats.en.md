@@ -77,6 +77,12 @@ meat, in most cases, their all-cause mortality risk is reduced. This is not the
 case of people who have an increase in small LDLp, which is strongly associated
 with atherosclerosis progression.
 
+## Cynicism and confusion towards dietary guidelines
+
+With changing nutritional guidelines, understandably, many become confused or cynic about them. While there are clearly some examples of policies that were influenced by entities incentivized by pure economic gain (like the cigarette or sugar industries) resulting in detrimental populational health, science has guided nutritional guidelines for the better. We enjoy longer and fuller lives because of it. The figure below shows the staggering progress science has provided to our longevity.  We make decisions with the best information we have at the time, and that information keeps getter more accurate, from better technology and more research, but also changes focus on the new problems that emerge after we solved the previous ones. While the challenge at the beginning of the century was to feed enough calories to people, today this problem affects a minority of the world population. Industrial monoculture of grains was a great solution for this early 20th-century problem, but today we face a different one. Reducing the damage of 80 decades of life requires a different approach, one oriented towards increasing the nutrients in our diet (fibers, vitamins, and minerals), and reducing our simple sugar consumption.
+
+{{< figure title="From ourworldindata.org/life-expectancy" library="true" align="center" width="500" src="Record-female-life-expectancy-since-1840.jpg">}}
+
 ## How should we apply this to our lives?
 
 In the end, the take-home message is that saturated fats, as a group of
