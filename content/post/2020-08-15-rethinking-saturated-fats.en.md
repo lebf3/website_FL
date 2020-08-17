@@ -81,7 +81,7 @@ with atherosclerosis progression.
 
 With changing nutritional guidelines, understandably, many become confused or cynic about them. While there are clearly some examples of policies that were influenced by entities incentivized by pure economic gain (like the cigarette or sugar industries) resulting in detrimental populational health, science has guided nutritional guidelines for the better. We enjoy longer and fuller lives because of it. The figure below shows the staggering progress science has provided to our longevity.  We make decisions with the best information we have at the time, and that information keeps getter more accurate, from better technology and more research, but also changes focus on the new problems that emerge after we solved the previous ones. While the challenge at the beginning of the century was to feed enough calories to people, today this problem affects a minority of the world population. Industrial monoculture of grains was a great solution for this early 20th-century problem, but today we face a different one. Reducing the damage of 80 decades of life requires a different approach, one oriented towards increasing the nutrients in our diet (fibers, vitamins, and minerals), and reducing our simple sugar consumption.
 
-{{< figure title="From ourworldindata.org/life-expectancy" library="true" align="center" width="500" src="Record-female-life-expectancy-since-1840.jpg">}}
+{{< figure title="From ourworldindata.org/life-expectancy" library="true" align="center" width="700" src="Record-female-life-expectancy-since-1840.jpg">}}
 
 ## How should we apply this to our lives?
 
@@ -99,10 +99,9 @@ If you want to dive deep in this subject, [here](https://peterattiamd.com/ronkra
 1.	Zhang, J.; Li, Q.; Wu, Y.; Wang, D.; Xu, L.; Zhang, Y.; Wang, S.; Wang, T.;
 Liu, F.; Zaky, M. Y., Cholesterol content in cell membrane maintains surface
 levels of ErbB2 and confers a therapeutic vulnerability in ErbB2-positive breast
-cancer. *Cell Communication and Signaling ***2019,** *17* (1), 1-12.
+cancer. *Cell Communication and Signaling*, **2019,** *17* (1), 1-12.
 
 2.	Astrup, A.; Magkos, F.; Bier, D. M.; Brenna, J. T.; de Oliveira Otto, M. C.;
 Hill, J. O.; King, J. C.; Mente, A.; Ordovas, J. M.; Volek, J. S., Saturated
 Fats and Health: A Reassessment and Proposal for Food-based Recommendations:
-JACC State-of-the-Art Review. *Journal of the American College of Cardiology
-***2020,** *76* (7), 844-857.
+JACC State-of-the-Art Review. *Journal of the American College of Cardiology*, **2020,** *76* (7), 844-857.
