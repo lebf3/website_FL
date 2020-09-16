@@ -21,6 +21,7 @@ interests:
 - Endothelial function
 - Autophagy
 - Senescence
+- Reason and critical thinking
 organizations:
 - name: Université de Montréal, Montreal heart institute
   url: ""

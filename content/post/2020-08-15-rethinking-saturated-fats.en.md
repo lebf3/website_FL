@@ -29,7 +29,7 @@ been *erroneously* demonized (if LDL and cholesterol are all clear for you
 here’s my main point: <ins>Under the presumption that either LDLc or all LDLp were
 important contributors to atherosclerosis, a diet that showed an increase in
 either of these was (and still is by most) considered dangerous and to be
-avoided.</ins>)
+avoided</ins>).
 
 ## So what’s LDL?
 
@@ -90,7 +90,7 @@ molecules, don’t seem to have a causal role in our risks of cardiovascular
 diseases, and what matters is where these saturated fats came from (what food it
 was packaged into). The consumption of **unprocessed** foods high in saturated
 fats is a healthy option for most (a subset of the population may not metabolize
-these fats as efficiently and benefit from diets lower in saturated fats)
+these fats as efficiently and benefit from diets lower in saturated fats).
 
 If you want to dive deep in this subject, [here](https://peterattiamd.com/ronkrauss/) is an interview with Dr. Krauss from my favorite podcast The Drive.
 
