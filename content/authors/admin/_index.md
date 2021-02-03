@@ -49,4 +49,4 @@ user_groups:
 - Visitors
 ---
 
-I am a rigorous, determined and motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the field of genomics for it's exponential potential to better our understanding of human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
+I am a motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the field of genomics for it's exponential potential to better our understanding of human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
