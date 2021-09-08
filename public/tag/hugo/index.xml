@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo | F. Leblanc</title>
-    <link>/tag/hugo/</link>
-      <atom:link href="/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/tag/hugo/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>Hugo</title>
-      <link>/tag/hugo/</link>
+      <link>https://lebf3-4090c9.netlify.app/tag/hugo/</link>
     </image>
     
     <item>
       <title>How I built this website</title>
-      <link>/post/how-i-built-this-website/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/how-i-built-this-website/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/how-i-built-this-website/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/how-i-built-this-website/</guid>
       <description>&lt;h2 id=&#34;why-this-post&#34;&gt;Why this post&lt;/h2&gt;
 &lt;p&gt;As a first post, it seemed appropriate to document the process of building this website and regroup resources for future use and help some other users. I entertained the idea of a personal website since I started my graduate studies in bioinformatics to showcase my work, but also build a platform that will extend outside the frame of my thesis. Using RMarkdown as my main work document, the package 
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; is the perfect fit (almost).&lt;/p&gt;

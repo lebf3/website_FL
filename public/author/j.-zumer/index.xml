@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>J. Zumer | F. Leblanc</title>
-    <link>/author/j.-zumer/</link>
-      <atom:link href="/author/j.-zumer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/author/j.-zumer/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/author/j.-zumer/index.xml" rel="self" type="application/rss+xml" />
     <description>J. Zumer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2019 12:52:50 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>J. Zumer</title>
-      <link>/author/j.-zumer/</link>
+      <link>https://lebf3-4090c9.netlify.app/author/j.-zumer/</link>
     </image>
     
     <item>
       <title>L’apprentissage machine pour la prédiction de peptides immunogènes à partir de RNAseq de tumeur</title>
-      <link>/publication/symposium-des-etudiants-du-cheminement-honor/</link>
+      <link>https://lebf3-4090c9.netlify.app/publication/symposium-des-etudiants-du-cheminement-honor/</link>
       <pubDate>Fri, 26 Apr 2019 12:52:50 -0400</pubDate>
-      <guid>/publication/symposium-des-etudiants-du-cheminement-honor/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/publication/symposium-des-etudiants-du-cheminement-honor/</guid>
       <description></description>
     </item>
     

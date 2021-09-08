@@ -36,7 +36,7 @@ subtitle = ""
   icon = "dna"
   icon_pack = "fas"
   name = "Omic assays"
-  description = "Genotyping, RNAseq, ATACseq, Proteomic"
+  description = "Genotyping, RNAseq, ATACseq, Proteomic, Single-cell"
 
 
 

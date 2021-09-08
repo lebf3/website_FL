@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | F. Leblanc</title>
-    <link>/category/r/</link>
-      <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/category/r/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
-      <link>/category/r/</link>
+      <link>https://lebf3-4090c9.netlify.app/category/r/</link>
     </image>
     
     <item>
       <title>Literature analysis</title>
-      <link>/post/literature-analysis/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/literature-analysis/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/post/literature-analysis/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/literature-analysis/</guid>
       <description>
 
 
@@ -59,7 +59,7 @@ M &amp;lt;- convert2df(file = f, dbsource = &amp;quot;wos&amp;quot;, format = &a
 ## Generating affiliation field tag AU_UN from C1:  Done!&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;results &amp;lt;- biblioAnalysis(M, sep = &amp;quot;;&amp;quot;)
 plot(x = results, k = 10, pause = FALSE)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-4.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-5.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-4.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-5.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;co-occurence-of-author-keywords&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Co-occurence of Author Keywords&lt;/h1&gt;
@@ -68,7 +68,7 @@ NetMatrix &amp;lt;- biblioNetwork(M, analysis = &amp;quot;co-occurrences&amp;quo
 
 # Plot the network
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Co-occurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;genes-and-diseases-analysis&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Genes and diseases analysis&lt;/h1&gt;
@@ -132,7 +132,7 @@ M2 &amp;lt;- change_ID(new_ID,M2)
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;variation-of-investigated-genes-over-time&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Variation of investigated genes over time&lt;/h2&gt;
@@ -169,7 +169,7 @@ net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T
 }
 
 ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;network-analysis-of-diseases&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Network analysis of diseases&lt;/h2&gt;
@@ -178,12 +178,12 @@ M2 &amp;lt;- change_ID(new_ID,M2)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;variation-of-investigated-diseases-over-time&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Variation of investigated diseases over time&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;combined-genes-and-diseases-network&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Combined genes and diseases network&lt;/h2&gt;
@@ -195,14 +195,14 @@ results2 &amp;lt;- biblioAnalysis(M2, sep = &amp;quot;;&amp;quot;)
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;wordcloud&amp;quot;)
 set.seed(1234)
 d &amp;lt;- as.data.frame(results2$ID)
 wordcloud(words = d$Tab, freq = d$Freq, min.freq = 2,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, &amp;quot;Dark2&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;best-journal-in-topic&#34; class=&#34;section level1&#34;&gt;
@@ -227,7 +227,7 @@ top_J &amp;lt;- head(sources[order(sources$TCpYpA, decreasing = T),], 15)&lt;/co
   theme(legend.position = &amp;quot;none&amp;quot;)+
   xlab(&amp;quot;Citations/(Years*Articles)&amp;quot;)+
   ylab(&amp;quot;Journal&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(top_J, aes(x = ImpactFactor, y=TCpYpA, label=sources, colour=sources))+
   geom_point() +
   geom_label_repel(size = 2.3)+
@@ -236,7 +236,7 @@ top_J &amp;lt;- head(sources[order(sources$TCpYpA, decreasing = T),], 15)&lt;/co
   theme_minimal() +
   theme(legend.position = &amp;quot;none&amp;quot;) +
   ylab(&amp;quot;Citations/(Years*Articles)&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;large-queries-analyses&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Large queries analyses&lt;/h1&gt;

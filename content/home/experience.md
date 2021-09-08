@@ -26,8 +26,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 
-  * Library preperation
-  * Proteomic, Genotyping & RNAseq analyses
+  * Bulk and single cell RNAseq and ATACseq sample optimization, library preperation and bioinformatic analyses
+  * Proteomic & Genotyping bioinformatic analyses
   * Reseach and experimental design
   """
 

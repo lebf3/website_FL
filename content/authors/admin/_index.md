@@ -18,6 +18,7 @@ interests:
 - Omic technologies
 - Data visualization
 - Healthspan
+- Longevity
 - Endothelial function
 - Autophagy
 - Senescence
@@ -49,4 +50,4 @@ user_groups:
 - Visitors
 ---
 
-I am a motivated PhD student in bioinformatics. I reoriented my career after 10 years in the fitness industry to the field of genomics for it's exponential potential to better our understanding of human biology. I am passionate about leveraging new omic technologies to enhance human healthspan.
+I am an inspired PhD student acting as lead bioinformatician on international human omic projects. I reoriented my career after 10 years in the fitness industry to the field of genomics for it’s exponential potential to better our understanding of human biology. I am passionate about enhancing human healthspan through leveraging new omic technologies.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dali R | F. Leblanc</title>
-    <link>/author/dali-r/</link>
-      <atom:link href="/author/dali-r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/author/dali-r/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/author/dali-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Dali R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>Dali R</title>
-      <link>/author/dali-r/</link>
+      <link>https://lebf3-4090c9.netlify.app/author/dali-r/</link>
     </image>
     
     <item>
       <title>Integrative analysis of vascular endothelial cell genomic features identifies AIDA as a coronary artery disease candidate gene</title>
-      <link>/publication/journal-article/</link>
+      <link>https://lebf3-4090c9.netlify.app/publication/aida/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/publication/aida/</guid>
       <description></description>
     </item>
     

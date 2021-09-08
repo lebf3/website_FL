@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health | F. Leblanc</title>
-    <link>/category/health/</link>
-      <atom:link href="/category/health/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/category/health/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/category/health/index.xml" rel="self" type="application/rss+xml" />
     <description>Health</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>Health</title>
-      <link>/category/health/</link>
+      <link>https://lebf3-4090c9.netlify.app/category/health/</link>
     </image>
     
     <item>
       <title>Rethinking saturated fats</title>
-      <link>/post/rethinking-saturated-fats/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/rethinking-saturated-fats/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/post/rethinking-saturated-fats/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/rethinking-saturated-fats/</guid>
       <description>&lt;p&gt;A paper that will most likely raise a lot of controversies was published in JACC
 beginning of august 2020, one of the top scientific journals in cardiology. The
 article goes through a lot more then I cover here, but I wanted to make
@@ -25,7 +25,7 @@ been &lt;em&gt;erroneously&lt;/em&gt; demonized (if LDL and cholesterol are al
 here’s my main point: &lt;ins&gt;Under the presumption that either LDLc or all LDLp were
 important contributors to atherosclerosis, a diet that showed an increase in
 either of these was (and still is by most) considered dangerous and to be
-avoided.&lt;/ins&gt;)&lt;/p&gt;
+avoided&lt;/ins&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;so-whats-ldl&#34;&gt;So what’s LDL?&lt;/h2&gt;
 &lt;p&gt;LDL refers to low-density lipoprotein. This term is often confounded with
 cholesterol as a molecule. Let’s first describe how these 2 terms differ.
@@ -49,10 +49,10 @@ cholesterol as a molecule. Let’s first describe how these 2 terms differ.
 &lt;figure id=&#34;figure-cholesterol-molecule&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/88603daca664e9fcc51d9571d0d7659a.png&#34; data-caption=&#34;cholesterol molecule&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/88603daca664e9fcc51d9571d0d7659a.png&#34; data-caption=&#34;cholesterol molecule&#34;&gt;
 
 
-  &lt;img src=&#34;/img/88603daca664e9fcc51d9571d0d7659a.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/88603daca664e9fcc51d9571d0d7659a.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
 &lt;/a&gt;
 
 
@@ -98,10 +98,10 @@ difference matters.
 &lt;figure id=&#34;figure-t-dayspring-t-dall-m-abuhajir--research-reports-clin-cardiol-2010&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/317442e508be53f644daa95867f56539.jpg&#34; data-caption=&#34;T Dayspring, T Dall, M Abuhajir - Research Reports Clin Cardiol, 2010&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/317442e508be53f644daa95867f56539.jpg&#34; data-caption=&#34;T Dayspring, T Dall, M Abuhajir - Research Reports Clin Cardiol, 2010&#34;&gt;
 
 
-  &lt;img src=&#34;/img/317442e508be53f644daa95867f56539.jpg&#34; alt=&#34;&#34; width=&#34;500&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/317442e508be53f644daa95867f56539.jpg&#34; alt=&#34;&#34; width=&#34;500&#34; &gt;
 &lt;/a&gt;
 
 
@@ -158,10 +158,10 @@ with atherosclerosis progression.&lt;/p&gt;
 &lt;figure id=&#34;figure-from-ourworldindataorglife-expectancy&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Record-female-life-expectancy-since-1840.jpg&#34; data-caption=&#34;From ourworldindata.org/life-expectancy&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/Record-female-life-expectancy-since-1840.jpg&#34; data-caption=&#34;From ourworldindata.org/life-expectancy&#34;&gt;
 
 
-  &lt;img src=&#34;/img/Record-female-life-expectancy-since-1840.jpg&#34; alt=&#34;&#34; width=&#34;700&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/Record-female-life-expectancy-since-1840.jpg&#34; alt=&#34;&#34; width=&#34;700&#34; &gt;
 &lt;/a&gt;
 
 
@@ -180,7 +180,7 @@ molecules, don’t seem to have a causal role in our risks of cardiovascular
 diseases, and what matters is where these saturated fats came from (what food it
 was packaged into). The consumption of &lt;strong&gt;unprocessed&lt;/strong&gt; foods high in saturated
 fats is a healthy option for most (a subset of the population may not metabolize
-these fats as efficiently and benefit from diets lower in saturated fats)&lt;/p&gt;
+these fats as efficiently and benefit from diets lower in saturated fats).&lt;/p&gt;
 &lt;p&gt;If you want to dive deep in this subject, 
 &lt;a href=&#34;https://peterattiamd.com/ronkrauss/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; is an interview with Dr. Krauss from my favorite podcast The Drive.&lt;/p&gt;
 &lt;h2 id=&#34;bibliography&#34;&gt;BIBLIOGRAPHY&lt;/h2&gt;
@@ -189,13 +189,13 @@ these fats as efficiently and benefit from diets lower in saturated fats)&lt;/p&
 &lt;p&gt;Zhang, J.; Li, Q.; Wu, Y.; Wang, D.; Xu, L.; Zhang, Y.; Wang, S.; Wang, T.;
 Liu, F.; Zaky, M. Y., Cholesterol content in cell membrane maintains surface
 levels of ErbB2 and confers a therapeutic vulnerability in ErbB2-positive breast
-cancer. &lt;em&gt;Cell Communication and Signaling&lt;/em&gt; &lt;strong&gt;2019,&lt;/strong&gt; &lt;em&gt;17&lt;/em&gt; (1), 1-12.&lt;/p&gt;
+cancer. &lt;em&gt;Cell Communication and Signaling&lt;/em&gt;, &lt;strong&gt;2019,&lt;/strong&gt; &lt;em&gt;17&lt;/em&gt; (1), 1-12.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Astrup, A.; Magkos, F.; Bier, D. M.; Brenna, J. T.; de Oliveira Otto, M. C.;
 Hill, J. O.; King, J. C.; Mente, A.; Ordovas, J. M.; Volek, J. S., Saturated
 Fats and Health: A Reassessment and Proposal for Food-based Recommendations:
-JACC State-of-the-Art Review. &lt;em&gt;Journal of the American College of Cardiology&lt;/em&gt; &lt;strong&gt;2020,&lt;/strong&gt; &lt;em&gt;76&lt;/em&gt; (7), 844-857.&lt;/p&gt;
+JACC State-of-the-Art Review. &lt;em&gt;Journal of the American College of Cardiology&lt;/em&gt;, &lt;strong&gt;2020,&lt;/strong&gt; &lt;em&gt;76&lt;/em&gt; (7), 844-857.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | F. Leblanc</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebf3-4090c9.netlify.app/post/</link>
+      <atom:link href="https://lebf3-4090c9.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/</link>
     </image>
     
     <item>
       <title>Rethinking saturated fats</title>
-      <link>/post/rethinking-saturated-fats/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/rethinking-saturated-fats/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/post/rethinking-saturated-fats/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/rethinking-saturated-fats/</guid>
       <description>&lt;p&gt;A paper that will most likely raise a lot of controversies was published in JACC
 beginning of august 2020, one of the top scientific journals in cardiology. The
 article goes through a lot more then I cover here, but I wanted to make
@@ -25,7 +25,7 @@ been &lt;em&gt;erroneously&lt;/em&gt; demonized (if LDL and cholesterol are al
 here’s my main point: &lt;ins&gt;Under the presumption that either LDLc or all LDLp were
 important contributors to atherosclerosis, a diet that showed an increase in
 either of these was (and still is by most) considered dangerous and to be
-avoided.&lt;/ins&gt;)&lt;/p&gt;
+avoided&lt;/ins&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;so-whats-ldl&#34;&gt;So what’s LDL?&lt;/h2&gt;
 &lt;p&gt;LDL refers to low-density lipoprotein. This term is often confounded with
 cholesterol as a molecule. Let’s first describe how these 2 terms differ.
@@ -49,10 +49,10 @@ cholesterol as a molecule. Let’s first describe how these 2 terms differ.
 &lt;figure id=&#34;figure-cholesterol-molecule&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/88603daca664e9fcc51d9571d0d7659a.png&#34; data-caption=&#34;cholesterol molecule&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/88603daca664e9fcc51d9571d0d7659a.png&#34; data-caption=&#34;cholesterol molecule&#34;&gt;
 
 
-  &lt;img src=&#34;/img/88603daca664e9fcc51d9571d0d7659a.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/88603daca664e9fcc51d9571d0d7659a.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
 &lt;/a&gt;
 
 
@@ -98,10 +98,10 @@ difference matters.
 &lt;figure id=&#34;figure-t-dayspring-t-dall-m-abuhajir--research-reports-clin-cardiol-2010&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/317442e508be53f644daa95867f56539.jpg&#34; data-caption=&#34;T Dayspring, T Dall, M Abuhajir - Research Reports Clin Cardiol, 2010&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/317442e508be53f644daa95867f56539.jpg&#34; data-caption=&#34;T Dayspring, T Dall, M Abuhajir - Research Reports Clin Cardiol, 2010&#34;&gt;
 
 
-  &lt;img src=&#34;/img/317442e508be53f644daa95867f56539.jpg&#34; alt=&#34;&#34; width=&#34;500&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/317442e508be53f644daa95867f56539.jpg&#34; alt=&#34;&#34; width=&#34;500&#34; &gt;
 &lt;/a&gt;
 
 
@@ -158,10 +158,10 @@ with atherosclerosis progression.&lt;/p&gt;
 &lt;figure id=&#34;figure-from-ourworldindataorglife-expectancy&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Record-female-life-expectancy-since-1840.jpg&#34; data-caption=&#34;From ourworldindata.org/life-expectancy&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://lebf3-4090c9.netlify.app/img/Record-female-life-expectancy-since-1840.jpg&#34; data-caption=&#34;From ourworldindata.org/life-expectancy&#34;&gt;
 
 
-  &lt;img src=&#34;/img/Record-female-life-expectancy-since-1840.jpg&#34; alt=&#34;&#34; width=&#34;700&#34; &gt;
+  &lt;img src=&#34;https://lebf3-4090c9.netlify.app/img/Record-female-life-expectancy-since-1840.jpg&#34; alt=&#34;&#34; width=&#34;700&#34; &gt;
 &lt;/a&gt;
 
 
@@ -180,7 +180,7 @@ molecules, don’t seem to have a causal role in our risks of cardiovascular
 diseases, and what matters is where these saturated fats came from (what food it
 was packaged into). The consumption of &lt;strong&gt;unprocessed&lt;/strong&gt; foods high in saturated
 fats is a healthy option for most (a subset of the population may not metabolize
-these fats as efficiently and benefit from diets lower in saturated fats)&lt;/p&gt;
+these fats as efficiently and benefit from diets lower in saturated fats).&lt;/p&gt;
 &lt;p&gt;If you want to dive deep in this subject, 
 &lt;a href=&#34;https://peterattiamd.com/ronkrauss/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; is an interview with Dr. Krauss from my favorite podcast The Drive.&lt;/p&gt;
 &lt;h2 id=&#34;bibliography&#34;&gt;BIBLIOGRAPHY&lt;/h2&gt;
@@ -189,13 +189,13 @@ these fats as efficiently and benefit from diets lower in saturated fats)&lt;/p&
 &lt;p&gt;Zhang, J.; Li, Q.; Wu, Y.; Wang, D.; Xu, L.; Zhang, Y.; Wang, S.; Wang, T.;
 Liu, F.; Zaky, M. Y., Cholesterol content in cell membrane maintains surface
 levels of ErbB2 and confers a therapeutic vulnerability in ErbB2-positive breast
-cancer. &lt;em&gt;Cell Communication and Signaling&lt;/em&gt; &lt;strong&gt;2019,&lt;/strong&gt; &lt;em&gt;17&lt;/em&gt; (1), 1-12.&lt;/p&gt;
+cancer. &lt;em&gt;Cell Communication and Signaling&lt;/em&gt;, &lt;strong&gt;2019,&lt;/strong&gt; &lt;em&gt;17&lt;/em&gt; (1), 1-12.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Astrup, A.; Magkos, F.; Bier, D. M.; Brenna, J. T.; de Oliveira Otto, M. C.;
 Hill, J. O.; King, J. C.; Mente, A.; Ordovas, J. M.; Volek, J. S., Saturated
 Fats and Health: A Reassessment and Proposal for Food-based Recommendations:
-JACC State-of-the-Art Review. &lt;em&gt;Journal of the American College of Cardiology&lt;/em&gt; &lt;strong&gt;2020,&lt;/strong&gt; &lt;em&gt;76&lt;/em&gt; (7), 844-857.&lt;/p&gt;
+JACC State-of-the-Art Review. &lt;em&gt;Journal of the American College of Cardiology&lt;/em&gt;, &lt;strong&gt;2020,&lt;/strong&gt; &lt;em&gt;76&lt;/em&gt; (7), 844-857.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>
@@ -203,9 +203,9 @@ JACC State-of-the-Art Review. &lt;em&gt;Journal of the American College of Cardi
     
     <item>
       <title>Literature analysis</title>
-      <link>/post/literature-analysis/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/literature-analysis/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/post/literature-analysis/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/literature-analysis/</guid>
       <description>
 
 
@@ -248,7 +248,7 @@ M &amp;lt;- convert2df(file = f, dbsource = &amp;quot;wos&amp;quot;, format = &a
 ## Generating affiliation field tag AU_UN from C1:  Done!&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;results &amp;lt;- biblioAnalysis(M, sep = &amp;quot;;&amp;quot;)
 plot(x = results, k = 10, pause = FALSE)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-4.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-5.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-3.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-4.png&#34; width=&#34;2000&#34; /&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-2-5.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;co-occurence-of-author-keywords&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Co-occurence of Author Keywords&lt;/h1&gt;
@@ -257,7 +257,7 @@ NetMatrix &amp;lt;- biblioNetwork(M, analysis = &amp;quot;co-occurrences&amp;quo
 
 # Plot the network
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Co-occurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;genes-and-diseases-analysis&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Genes and diseases analysis&lt;/h1&gt;
@@ -321,7 +321,7 @@ M2 &amp;lt;- change_ID(new_ID,M2)
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 30, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;variation-of-investigated-genes-over-time&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Variation of investigated genes over time&lt;/h2&gt;
@@ -358,7 +358,7 @@ net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T
 }
 
 ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;network-analysis-of-diseases&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Network analysis of diseases&lt;/h2&gt;
@@ -367,12 +367,12 @@ M2 &amp;lt;- change_ID(new_ID,M2)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;variation-of-investigated-diseases-over-time&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Variation of investigated diseases over time&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ID_evol_p(M2,30)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;combined-genes-and-diseases-network&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Combined genes and diseases network&lt;/h2&gt;
@@ -384,14 +384,14 @@ results2 &amp;lt;- biblioAnalysis(M2, sep = &amp;quot;;&amp;quot;)
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NetMatrix &amp;lt;- biblioNetwork(M2, analysis = &amp;quot;co-occurrences&amp;quot;, network = &amp;quot;keywords&amp;quot;, sep = &amp;quot;;&amp;quot;)
 
 net=networkPlot(NetMatrix, normalize=&amp;quot;association&amp;quot;, weighted=T, n = 50, Title = &amp;quot;Keyword Cooccurrences&amp;quot;, type = &amp;quot;auto&amp;quot;, size=T,edgesize = 5,labelsize=0.7)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;wordcloud&amp;quot;)
 set.seed(1234)
 d &amp;lt;- as.data.frame(results2$ID)
 wordcloud(words = d$Tab, freq = d$Freq, min.freq = 2,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, &amp;quot;Dark2&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;best-journal-in-topic&#34; class=&#34;section level1&#34;&gt;
@@ -416,7 +416,7 @@ top_J &amp;lt;- head(sources[order(sources$TCpYpA, decreasing = T),], 15)&lt;/co
   theme(legend.position = &amp;quot;none&amp;quot;)+
   xlab(&amp;quot;Citations/(Years*Articles)&amp;quot;)+
   ylab(&amp;quot;Journal&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(top_J, aes(x = ImpactFactor, y=TCpYpA, label=sources, colour=sources))+
   geom_point() +
   geom_label_repel(size = 2.3)+
@@ -425,7 +425,7 @@ top_J &amp;lt;- head(sources[order(sources$TCpYpA, decreasing = T),], 15)&lt;/co
   theme_minimal() +
   theme(legend.position = &amp;quot;none&amp;quot;) +
   ylab(&amp;quot;Citations/(Years*Articles)&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lebf3-4090c9.netlify.app/post/2020-08-01-literature-analysis.en_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;2000&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;large-queries-analyses&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Large queries analyses&lt;/h1&gt;
@@ -559,9 +559,9 @@ for (i in 1:length(M$PMID[1:100])) {
     
     <item>
       <title>How I built this website</title>
-      <link>/post/how-i-built-this-website/</link>
+      <link>https://lebf3-4090c9.netlify.app/post/how-i-built-this-website/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/how-i-built-this-website/</guid>
+      <guid>https://lebf3-4090c9.netlify.app/post/how-i-built-this-website/</guid>
       <description>&lt;h2 id=&#34;why-this-post&#34;&gt;Why this post&lt;/h2&gt;
 &lt;p&gt;As a first post, it seemed appropriate to document the process of building this website and regroup resources for future use and help some other users. I entertained the idea of a personal website since I started my graduate studies in bioinformatics to showcase my work, but also build a platform that will extend outside the frame of my thesis. Using RMarkdown as my main work document, the package 
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; is the perfect fit (almost).&lt;/p&gt;
