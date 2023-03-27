@@ -8,7 +8,7 @@ authors:
 - Francis JA Leblanc
 - Guillaume Lettre
 
-date: "2023-03-9T00:00:00Z"
+date: "2023-03-9"
 doi: "https://doi.org/10.1038/s41598-023-31040-w"
 featured: true
 # image:
@@ -20,7 +20,7 @@ publication: '*Major cell-types in multiomic single-nucleus datasets impact stat
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2023-03-9T00:00:00Z"
+publishDate: "2023-03-27T15:51:12-04:00"
 tags:
 - Single cell multiome
 - RNAseq
