@@ -5,7 +5,7 @@
     <link>https://lebf3-4090c9.netlify.app/author/francis-leblanc/</link>
       <atom:link href="https://lebf3-4090c9.netlify.app/author/francis-leblanc/index.xml" rel="self" type="application/rss+xml" />
     <description>Francis Leblanc</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lebf3-4090c9.netlify.app/images/icon_hufe976c661fb6135bd1164f77aadbc1d5_99438_512x512_fill_lanczos_center_3.png</url>
       <title>Francis Leblanc</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
-      <title>Transcriptomic profiling of atrial fibrillation canine models at disease onset</title>
-      <link>https://lebf3-4090c9.netlify.app/publication/dogaf/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://lebf3-4090c9.netlify.app/publication/dogaf/</guid>
+      <title>Integrative analysis of vascular endothelial cell genomic features identifies AIDA as a coronary artery disease candidate gene</title>
+      <link>https://lebf3-4090c9.netlify.app/publication/aida/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://lebf3-4090c9.netlify.app/publication/aida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L’apprentissage machine pour la prédiction de peptides immunogènes à partir de RNAseq de tumeur</title>
+      <link>https://lebf3-4090c9.netlify.app/publication/symposium-des-etudiants-du-cheminement-honor/</link>
+      <pubDate>Fri, 26 Apr 2019 12:52:50 -0400</pubDate>
+      <guid>https://lebf3-4090c9.netlify.app/publication/symposium-des-etudiants-du-cheminement-honor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les TeloHAEC, un modèle endothélial prometteur pour l’étude de variations génétiques</title>
+      <link>https://lebf3-4090c9.netlify.app/publication/premier/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lebf3-4090c9.netlify.app/publication/premier/</guid>
       <description></description>
     </item>
     

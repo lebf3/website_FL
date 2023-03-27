@@ -83,12 +83,6 @@
     <loc>https://lebf3-4090c9.netlify.app/author/xiaoyan-qi/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lebf3-4090c9.netlify.app/author/francis-leblanc/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lebf3-4090c9.netlify.app/publication/dogaf/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lebf3-4090c9.netlify.app/categories/</loc>
     <lastmod>2020-08-15T09:04:20-04:00</lastmod>
   </url><url>
@@ -260,7 +254,17 @@
     <loc>https://lebf3-4090c9.netlify.app/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://lebf3-4090c9.netlify.app/tag/atacseq/</loc>
+  </url><url>
+    <loc>https://lebf3-4090c9.netlify.app/tag/ccre/</loc>
+  </url><url>
     <loc>https://lebf3-4090c9.netlify.app/tag/crispr/cas9/</loc>
+  </url><url>
+    <loc>https://lebf3-4090c9.netlify.app/author/francis-ja-leblanc/</loc>
+  </url><url>
+    <loc>https://lebf3-4090c9.netlify.app/publication/links_multiome/</loc>
+  </url><url>
+    <loc>https://lebf3-4090c9.netlify.app/tag/single-cell-multiome/</loc>
   </url><url>
     <loc>https://lebf3-4090c9.netlify.app/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
